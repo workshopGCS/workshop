@@ -1,0 +1,10 @@
+{
+  "name": "blacksmith-demo",
+  "packageManager": "pnpm@11.24.0",
+  "private": true,
+  "scripts": {
+    "test": "pnpm --filter @blacksmith-demo/web test",
+    "build": "pnpm --filter @blacksmith-demo/web build",
+    "e2e": "pnpm --filter @blacksmith-demo/e2e test"
+  }
+}
